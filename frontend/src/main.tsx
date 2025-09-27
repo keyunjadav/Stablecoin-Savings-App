@@ -38,7 +38,7 @@ class ErrorBoundary extends React.Component<{ children: React.ReactNode }, { has
   }
 }
 
-// Inline styles (can move to CSS later)
+// Inline styles 
 const loaderStyle: React.CSSProperties = {
   display: 'flex',
   justifyContent: 'center',
