@@ -59,7 +59,6 @@ export default function DepositWithdrawCard() {
 
   const onWithdrawMax = async () => {
     // read user shares then withdraw all
-    // simple approach: withdraw balanceOf(msg.sender)
     await withdraw({
       address: VAULT,
       abi: vaultAbi as any,
